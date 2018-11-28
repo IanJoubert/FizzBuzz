@@ -10,11 +10,6 @@ namespace FizzBuzz
 
         public static string GetFizzBuzzValue(int v)
         {
-            if (v == 0)
-            {
-                return "";
-            }
-
             if (v % 3 == 0 && v % 5 == 0)
             {
                 return Fizz + Buzz;
